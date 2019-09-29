@@ -1,7 +1,5 @@
 package pl.javastart.rekrutation_questions.equals_hashcode;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
