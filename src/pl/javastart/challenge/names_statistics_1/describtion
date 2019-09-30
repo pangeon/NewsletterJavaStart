@@ -1,0 +1,14 @@
+Napisz program, który wyświetli następujące statystyki:
+
+    10 najpopularniejszych imion,
+    najpopularniejsze imię żeńskie,
+    imiona rozpoczynające się od jakich liter są najpopularniejsze. Wyświetl 3 najpopularniejsze litery wraz z ilością imion rozpoczynających się daną literą.
+
+We wszystkich statystykach interesuje nas pełen zakres dat, czyli lata 2011-2016 i pomijamy etniczność matki.
+
+                                    Przykład danych z pliku .csv
+----------------------------------------------------------------------------------------------------
+Year of Birth,  Gender,     Ethnicity,                      Child's First Name, Count,          Rank
+2016,           FEMALE,     ASIAN AND PACIFIC ISLANDER,     Olivia,             172,              1
+----------------------------------------------------------------------------------------------------
+
