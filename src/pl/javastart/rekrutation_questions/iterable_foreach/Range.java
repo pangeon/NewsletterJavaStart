@@ -17,23 +17,18 @@ class Range implements Iterable<Integer> {
     public Iterator<Integer> iterator() {
         return IntStream.rangeClosed(getStart(), getEnd()).iterator();
     }
-
     private int getStart() {
         return start;
     }
-
     public void setStart(int start) {
         this.start = start;
     }
-
     private int getEnd() {
         return end;
     }
-
     private void setEnd(int end) {
         this.end = end;
     }
-
     public static void main(String[] args) {
             int i = 0;
             while (i < 15) {
@@ -41,9 +36,7 @@ class Range implements Iterable<Integer> {
                 for (i = range.getStart(); i <= range.getEnd(); i++) {
                     System.out.print(i + " ");
                 }
-
                 System.out.println();
-
                 /*
                 pętla for each jest odpowiednikiem tradycyjnej pętli for postaci:
                 for(Iterator<Integer> it = range.iterator(); it.hasNext();) {
